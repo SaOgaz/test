@@ -1,0 +1,42 @@
+
+This file contains the distortion of the ACS/WFC channel 
+from ACS/WFC calibration Pre SM4 programs using the observations
+of 47Tuc through 10 ACS/WFC filters and their clear counterparts:
+F606W F775W F475W F502N F625W F658N F555W F435W F814W F850LP.
+F550M and F660N use coefficients from F555W and F658N respectively
+due to lack of data in those filters.
+
+These filters are calibrated using real data using the polynomial 
+coefficients derived by comparison of the standard astrometric catalog
+created for this effort (ACS-ISR-2015-6) and employing 5th order 
+polynomials least squares solutions by
+Kozhurina-Platias, et. al. as described in ACS-ISR 2015-6.
+This file can be used as described in ACS-ISR 2015-2.
+
+Polarizer coefficients use the full frame coefficients from the
+accompanying color filter crossed with CLEAR as that gives the closest
+results to the actual distortion.
+
+Ramp filter coefficients contain the old, 4th order, coefficients
+with the 5th order coefficients zero'd out. Due to lack of data
+we are unable to fully calibrate these filters to the same precision
+as other filters.
+
+The coefficients of all other non-calibrated filters are the same
+coefficients as F606W and clear as it has the best calibration.
+Calibrations for these filters will be made if more data is made
+available.
+
+This file contains an entry for every possible combination of filters
+in the WFC filter wheel even if they are not a valid combination for
+WFC.
+
+The reference point in the ACS/WFC V2V3 coordinate 
+system is calibrated following the alignment measurements 
+of ACS/WFC channel in Jan 2002.  
+
+All coefficients in this file have been corrected for vafactor issues.
+
+This file was previously named: 012017_pre_every_idc.fits
+
+

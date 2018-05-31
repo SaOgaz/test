@@ -1,0 +1,2 @@
+Contains scripts for the IDC conversion pipeline. Starts with the IDL .r script 
+allnomean_pre.pro and allmean_pre.pro for before SM4 and the _post for post SM4.
